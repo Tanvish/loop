@@ -1,0 +1,33 @@
+.gridnew{
+	margin-left: 5%;
+	margin-top:2%;
+	text-align:center;
+	}
+table {
+	text-align:center;
+  font-size: .9em;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+}
+td, th {
+	font-family: 'Roboto',verdana;
+  text-align: center;
+  padding: 1.5em 1em;
+  border: 1px solid #aaa;
+}
+
+
+/* RWD */
+
+@media (max-width: 600px) {
+
+/* make browsers include padding and border inside the width */
+/* http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* http://html5please.com/#box-sizing */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
